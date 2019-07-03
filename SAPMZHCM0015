@@ -1,0 +1,24 @@
+*----------------------------------------------------------------------*
+*                        Cast/Pelissari                                *
+*----------------------------------------------------------------------*
+* Programa : SAPMZHCM0015                                              *
+* Módulo : HR                                                          *
+* Propósito : Unificação tabelas de Benefícios e Cálculos específicos  *
+*----------------------------------------------------------------------*
+* Autor: Rodrigo Brito                                                 *
+* Data : 26.11.2018                                                    *
+*----------------------------------------------------------------------*
+* Última modificação:                                                  *
+* Nº Request Data Modificado Por Motivo                                *
+* XXXXXXXXXX dd.mm.yyyy Xxxxxxxxxxxxxxxxx Xxxxxxxxxxxxxxxx             *
+*----------------------------------------------------------------------*
+
+
+include mzhcm0015top. " global Data
+include mzhcm0015o01. " PBO-Modules
+include mzhcm0015i01. " PAI-Modules
+include mzhcm0015f01. " FORM-Routines
+
+*GUI Texts
+*----------------------------------------------------------
+* T0001 --> Menu de Benefícios
